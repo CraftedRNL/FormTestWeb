@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Test</title>
+</head>
+<body>
+    <form action="/practice.html" method="POST">
+        <label for="username">Name:</label>
+        <input required type="text" id="username" name="username">
+        <br>
+        <label for="email">Email:</label>
+        <input required type="email" id="email" name="email">
+        <br>
+        <label for="url">URL:</label>
+        <input required type="url" id="url" name="url" placeholder="Write the URL of your website">
+        <br>
+        <label for="date">Date:</label>
+        <input required type="date" id="date" name="date">
+        <br>
+        <label for="time">Time:</label>
+        <input required type="time" id="time" name="time">
+        <br>
+        <label for="d/tbirth">Date and time of birth:</label>
+        <input required type="date" id="d/tbirth" name="d/tbirth">
+        <input required type="time" id="d/tbirth2" name="d/tbirth2">
+        <label for="d/tbirth2">UTC</label>
+        <br>
+        <label for="month">Month:</label>
+        <input required type="month" id="month" name="month">
+        <br>
+        <label for="week">Week:</label>
+        <input required type="week" id="week" name="week">
+        <br>
+        <label for="number">Number (min -10, max 10):</label>
+        <input required placeholder="0" min="-10" max="10" type="number" id="number" name="number">
+        <br>
+        <label for="range">Range (min 0, max 10):</label>
+        <input required min="0" max="10" type="range" id="range" name="range">
+        <br>
+        <label for="phone#">Telephone:</label>
+        <input required  pattern="[0-9]+"  type="tel" id="phone#" name="phone#">
+        <br>
+        <label  for="search">Search term:</label>
+        <input required  type="search" id="search" name="search">
+        <br>
+        <label for="color">Favorite colour:</label>
+        <input required type="color" id="colour" name="colour">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
